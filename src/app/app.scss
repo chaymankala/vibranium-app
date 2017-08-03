@@ -14,3 +14,46 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.home-img{
+    height:100% !important;
+    max-width: 1000% !important;
+    margin:-2%;
+}
+.home-title-vibranium{
+    position: absolute;
+    top: 0%;
+    color: #09bf16;
+    border: 9px solid #09bf16;
+    left: 3%;
+    font-size: 3.8rem;
+    padding: 1.7vw;
+}
+.home-title-kryptonite{
+    position: absolute;
+    bottom: 0%;
+    color: #e4e4e4;
+    border: 9px solid #003853;
+    right: 3%;
+    font-size: 3.8rem;
+    padding: 1.4vw;
+}
+.home-title-kryptonite:before{
+    background: none;
+    border: 3px solid #d1121a;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    right: -7px;
+    bottom: -7px;
+    pointer-events: none;
+}
+.border-home{
+    border:1px solid white;
+}
+
+.home-btn{
+    height: 50% !important;
+    margin: 0px !important;
+}
